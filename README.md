@@ -17,13 +17,21 @@ To calculate the sentiment scores of the tweets we use the 'vader_lexicon' and m
 This program uses the following imports 
 ___
 import pandas as pd
+
 import seaborn as sns
+
 import matplotlib.pyplot as plt
+
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
+
 from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+
 import nltk
+
 import re
+
 from nltk.corpus import stopwords
+
 import string
 
 
